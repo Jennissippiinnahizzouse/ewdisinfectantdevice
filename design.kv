@@ -1,0 +1,41 @@
+<MainScreen>:
+    GridLayout:
+        cols: 1
+        padding: 15, 15
+        spacing: 20, 20
+        Label:
+            text: "Calculate Electrolysis Duration"
+            font_size: "20sp"
+        TextInput:
+            id: amperage
+            hint_text: "Amperage"
+        Button:
+            text: "Calculate"
+            on_press: root.calculate(root.ids.amperage.text)
+        Label:
+            id: minutes
+            text: ""
+        Button:
+            text: "Go to Dilution Reference Table"
+            on_press: root.go_to_dilute()
+
+<DiluteScreen>:
+    GridLayout:
+        cols:1
+        padding: 20, 20
+        spacing: 20, 20
+        Label:
+            text: "Dilution Reference Table"
+            font_size: "20sp"
+        Image:
+            source: 'diluteref.png'
+            size_hint: 5, 5
+        Button:
+            text: "Go to Calculator"
+            on_press: root.go_to_main()
+
+<RootWidget>:
+    MainScreen:
+        name: "main_screen"
+    DiluteScreen:
+        name: "dilute_screen"
