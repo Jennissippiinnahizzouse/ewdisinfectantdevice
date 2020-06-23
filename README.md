@@ -1,9 +1,9 @@
 # Electrolyzed Water Disinfectant Device
 
-This is the code for the Configuration Calculation App for the [Electroylzed Water Disinfectant Device](https://www.hackster.io/350089/electrolyzed-water-disinfectant-device-27d130). The .apk file is provided, while the source code is attached in the form of the main code and design file. The Kivy library in Python 3 is required to run the source files. The app was compiled using the Buildozer utility.
+This is the code for the Configuration Calculation App for the [Electroylzed Water Disinfectant Device](https://www.hackster.io/350089/electrolyzed-water-disinfectant-device-27d130). The .apk file is provided in the bin folder, while the source code is attached in the form of the main code and design file. The Kivy library in Python 3 is required to run the source files. The app was compiled using the Buildozer utility.
 
 # Installing the App (Android Only)
-To install the app, please download the .apk file to an Android device. The app is not released on the Google Play Store, and must be installed manually.
+To install the app, please download the .apk file in the bin folder to an Android device. The app is not released on the Google Play Store, and must be installed manually.
 
 # Running the Source Code
 To run the source code, Python 3 must be installed. On Windows, the necessary Kivy packages are installed using the following: 
